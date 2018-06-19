@@ -6,6 +6,12 @@ Medium green: #55c57a
 Dark green: #28b485
 
 */
+:root {
+  --primary-color: #7ed56f;
+  --light-primary: #55c57a;
+  --secondary-color: #28b485;
+}
+
 
 * {
   margin: 0;
