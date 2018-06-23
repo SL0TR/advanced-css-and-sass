@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SL0TR/advanced-css-and-sass.git"
+  },
+  "author": "SL0TR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SL0TR/advanced-css-and-sass/issues"
+  },
+  "homepage": "https://github.com/SL0TR/advanced-css-and-sass#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}
