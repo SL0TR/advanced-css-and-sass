@@ -12,7 +12,7 @@
     backface-visibility: hidden;
     position: relative;
     z-index: 1;
-    font-size: 1.6rem;
+    font-size: $default-font-size;
   }
 
   &:hover {
@@ -56,4 +56,26 @@
     animation: moveInBottom .5s ease-out .75s;
     animation-fill-mode: backwards;
   }
+}
+
+.btn-text {
+  &:link,
+  &:visited {
+    color: $primary-color;
+    display: inline;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid $primary-color;
+    padding: 4px;
+    font-size: $default-font-size;
+  }
+
+  &:hover {
+
+  }
+
+  &:active {
+
+  }
+
 }
