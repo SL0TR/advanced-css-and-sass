@@ -9,9 +9,16 @@
   padding-left: 9rem;
   transform: skewX(-12deg);
 
+  @include respond(tab-port) {
+    width: 90%;
+    padding: 4rem;
+  }
+
   & > * {
     transform: skewX(12deg);
   }
+
+  
 
   &__shape {
     width: 15rem;
